@@ -4,7 +4,7 @@
 - **Store link:** https://play.google.com/store/apps/details?id=io.supercent.pizzaidle
 - **Genre:** Idle / Tycoon Restaurant Simulator
 - **I played:** 40 minutes, unlocked Counter, Drive-Thru, and hired 3 staff members
-- **Video (optional):** https://youtu.be/GZ8ec8a2fOg
+- **Video:** https://youtu.be/GZ8ec8a2fOg
 
 <p>
 <img src="Docs/game1/1.png" width="240">
@@ -38,7 +38,7 @@
 - **Store link:** https://play.google.com/store/apps/details?id=com.icestonesoft.pavellotohov.appleworm.partners
 - **Genre:** Grid Based Physics Logic Puzzle
 - **I played:** 35 minutes, completed 7 levels
-- **Video (optional):** https://youtu.be/liJmh0vq8_Q
+- **Video:** https://youtu.be/liJmh0vq8_Q
 
 <p>
 <img src="Docs/game2/1.png" width="240">
