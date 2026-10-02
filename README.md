@@ -72,8 +72,8 @@
 
 | Level | Screenshot | Its idea | Wayfinding tool |
 |---|---|---|---|
-| Level01 | <img src="Docs/levels/level01.png" width="320"> | Basic linear stealth teaching basic movement, cheese pickup, single Tom obstacle, and simple cover. | Straight cheese trail leading directly from spawn to the exit door. |
-| Level02 | <img src="Docs/levels/level02.png" width="320"> | Loop layout requiring full traversal to collect all food, triggering noise carrots, and backtracking to start. | Water puddle placement and vase hideout points framing the returning pathway. |
-| Level03 | <img src="Docs/levels/level03.png" width="320"> | Serpentine chamber layout with dual Tom hazards, speed-boost red peppers, and a guarded exit. | Red pepper power-ups placed at key choke points signaling corridor directions. |
-| Level04 | <img src="Docs/levels/level04.png" width="320"> | 4-quadrant grid introducing triple cat hazards, fatal black hole pitfalls, and vertical stair hideouts. | Wall stair structures and central corridor partitions guiding quadrant navigation. |
-| Level05 | <img src="Docs/levels/level05.png" width="320"> | Segregated 4-room structure connected via interconnecting doorways for tactical room transitions and hiding. | Doorway openings between interior dividing walls marking transition paths between sections. |
+| Level01 | <img src="Docs/levels/Level01.png" width="320"> | Basic linear stealth teaching basic movement, cheese pickup, single Tom obstacle, and simple cover. | Straight cheese trail leading directly from spawn to the exit door. |
+| Level02 | <img src="Docs/levels/Level02.png" width="320"> | Loop layout requiring full traversal to collect all food, triggering noise carrots, and backtracking to start. | Water puddle placement and vase hideout points framing the returning pathway. |
+| Level03 | <img src="Docs/levels/Level03.png" width="320"> | Serpentine chamber layout with dual Tom hazards, speed-boost red peppers, and a guarded exit. | Red pepper power-ups placed at key choke points signaling corridor directions. |
+| Level04 | <img src="Docs/levels/Level04.png" width="320"> | 4-quadrant grid introducing triple cat hazards, fatal black hole pitfalls, and vertical stair hideouts. | Wall stair structures and central corridor partitions guiding quadrant navigation. |
+| Level05 | <img src="Docs/levels/Level05.png" width="320"> | Segregated 4-room structure connected via interconnecting doorways for tactical room transitions and hiding. | Doorway openings between interior dividing walls marking transition paths between sections. |
