@@ -1,79 +1,97 @@
 # CS464 Assignment 01 · Fasiha Rohail · BSSE23041
 
 ## Game 1 · Pizza Ready
-- **Store link:** https://play.google.com/store/apps/details?id=io.supercent.pizzaidle
-- **Genre:** Idle / Tycoon Restaurant Simulator
-- **I played:** 40 minutes, unlocked Counter, Drive-Thru, and hired 3 staff members
-- **Video:** https://youtu.be/GZ8ec8a2fOg
+
+* **Store link:** https://play.google.com/store/apps/details?id=io.supercent.pizzaidle
+* **Genre:** Idle / Tycoon Restaurant Simulator
+* **I played:** 40 minutes, unlocked Counter, Drive-Thru, and hired 3 staff members
+* **Video:** https://youtu.be/GZ8ec8a2fOg
 
 <p>
+
 <img src="Docs/game1/1.png" width="240">
+
 <img src="Docs/game1/2.png" width="240">
+
 <img src="Docs/game1/3.png" width="240">
+
 </p>
 
-1. [M1, M2, M3, M5] · Player standing at the main counter serving a customer queue with a MAX capacity pizza stack and a $200 expansion tile nearby.
-2. [M6] · Player interacting with the Table Upgrade station showing speed and sale price stat multipliers.
-3. [M4, M7] · Automated worker NPC serving the pickup station alongside on-ground cash drops ready for collection.
+1. **[M1, M2, M3, M5]** · The player is standing at the main counter and serving customers. The pizza stack is full and there is a $200 expansion tile nearby.
 
-| # | Mechanic | Dynamic | Aesthetic | Bartle type |
-|---|---|---|---|---|
-| M1 | Virtual joystick movement with auto-interaction on station overlap | Players route optimized loops around the store floor between ovens, counters, and trash stations | Challenge: test of efficient pathfinding and spatial planning under rush conditions | Achiever: optimizes movement routes to increase pizzas served per minute |
-| M2 | Hard carry capacity limit ($N$ items max, upgraded via cash) | Players stack pizzas to capacity, deciding when to deliver or drop extra items to clear capacity | Submission: creates a calm, repetitive rhythm of filling and emptying inventory | Achiever: increasing a numerical stat threshold to maximize throughput |
-| M3 | Dual-window customer spawning queue (Counter & Drive-thru) | Players monitor both queues and switch between windows whenever customer lines back up | Challenge: prioritizing tasks dynamically under rising time pressure | Achiever: clearing customer queues to maintain high store rating |
-| M4 | On-ground cash drop and proximity pickup | Players sweep up money piles in continuous floor passes to fund next store upgrades | Sensation: immediate visual and audio feedback of floating cash numbers | Achiever: instant, tangible score increase directly impacting store balance |
-| M5 | Pay-to-unlock expansion zones with cash threshold counters | Players save cash reserves and stand on marked floor tiles to trigger room expansions | Discovery: reveals new store areas, equipment, and customer types | Explorer: curiosity about what new content unlocks next in the shop layout |
-| M6 | Exponential cost scaling per upgrade level ($Cost = Base \times Scale^{level}$) | Players evaluate trade-offs between upgrading speed, capacity, or pizza price | Challenge: resource allocation and mathematical optimization of income growth | Achiever: min-maxing upgrade investments for maximum return on investment |
-| M7 | Automated worker NPCs with upgradable speed and capacity parameters | Players shift from manual labor to supervisory management as automated workers take over tasks | Fantasy: roleplay of managing and expanding a thriving business empire | Explorer: observing how automated systems interact to keep the store running |
+2. **[M6]** · The player is using the Table Upgrade station, which shows the speed and sale price upgrades.
 
-**Aesthetic profile:** Submission (repetitive, low-stress carrying and cash sweeping loops), Fantasy (building a business empire from scratch), and Challenge (optimizing routes and upgrade efficiency).
+3. **[M4, M7]** · An automated worker is serving customers at the pickup station, while cash is lying on the ground for the player to collect.
+
+| #  | Mechanic                                                                        | Dynamic                                                                                                                                 | Aesthetic                                                                                             | Bartle type                                                                                           |
+| -- | ------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| M1 | Virtual joystick movement with auto-interaction on station overlap              | Players move around the store between the ovens, counters, and trash stations. They try to find the best route to keep working quickly. | Challenge: Players have to manage their movement and find efficient routes when there are many tasks. | Achiever: Players try to improve their routes so they can serve more pizzas in less time.             |
+| M2 | Hard carry capacity limit ($N$ items max, upgraded with cash)                   | Players can only carry a certain number of pizzas. They have to decide when to deliver them or empty their stack.                       | Submission: This creates a simple and repetitive loop of collecting and delivering pizzas.            | Achiever: Players work on increasing their carrying capacity and improving their overall performance. |
+| M3 | Dual-window customer spawning queue (Counter & Drive-thru)                      | Players have to keep an eye on both the counter and drive-thru queues and move between them when one gets too long.                     | Challenge: Players have to decide which task to handle first when both queues need attention.         | Achiever: Players try to clear the queues and keep the store running smoothly.                        |
+| M4 | On-ground cash drop and proximity pickup                                        | Players collect the money that appears on the floor while moving around the store. The money is then used for upgrades.                 | Sensation: Seeing and collecting the cash gives quick visual and audio feedback.                      | Achiever: Players collect money to increase their balance and buy more upgrades.                      |
+| M5 | Pay-to-unlock expansion zones with cash threshold counters                      | Players save money and stand on marked tiles to unlock new parts of the restaurant.                                                     | Discovery: New areas, equipment, and customer types become available as the store expands.            | Explorer: Players are interested in seeing what new areas and features will unlock.                   |
+| M6 | Exponential cost scaling per upgrade level ($Cost = Base \times Scale^{level}$) | Players decide whether to spend their money on speed, carrying capacity, or pizza price upgrades.                                       | Challenge: Players have to choose which upgrades will give them the best results.                     | Achiever: Players try to spend their money wisely and get the most benefit from each upgrade.         |
+| M7 | Automated worker NPCs with upgradable speed and capacity parameters             | Players slowly move from doing all the work themselves to managing workers who handle different tasks.                                  | Fantasy: Players get the feeling of building and managing a growing restaurant business.              | Explorer: Players can watch the workers and see how the automated system works.                       |
+
+**Aesthetic profile:** Submission, Fantasy, and Challenge. The game has a repetitive and relaxing loop of carrying pizzas and collecting cash. It also gives the player the feeling of building a business from the beginning. At the same time, players have to find good routes and choose useful upgrades.
 
 **Player types**
-- **Primary: Achiever** (**Acting × World**), because 5 out of 7 mechanics (M1, M2, M3, M4, M6) center on acting directly on the game world to grow numeric values, clear queues, and maximize income throughput.
-- **Secondary: Explorer** (**Interacting × World**), because M5 and M7 reward interacting with the world to unlock new floor areas, discover new machinery, and test automated worker setups.
+
+* **Primary: Achiever (Acting × World)**, because 5 out of 7 mechanics (M1, M2, M3, M4, M6) focus on directly doing tasks in the game, increasing numbers, clearing customer queues, and earning more money.
+
+* **Secondary: Explorer (Interacting × World)**, because M5 and M7 involve exploring the store, unlocking new areas, discovering new machines, and seeing how the workers perform different tasks.
 
 ---
 
 ## Game 2 · Apple Worm
-- **Store link:** https://play.google.com/store/apps/details?id=com.icestonesoft.pavellotohov.appleworm.partners
-- **Genre:** Grid Based Physics Logic Puzzle
-- **I played:** 35 minutes, completed 7 levels
-- **Video:** https://youtu.be/liJmh0vq8_Q
+
+* **Store link:** https://play.google.com/store/apps/details?id=com.icestonesoft.pavellotohov.appleworm.partners
+* **Genre:** Grid Based Physics Logic Puzzle
+* **I played:** 35 minutes, completed 7 levels
+* **Video:** https://youtu.be/liJmh0vq8_Q
 
 <p>
+
 <img src="Docs/game2/1.png" width="240">
+
 <img src="Docs/game2/2.png" width="240">
+
 <img src="Docs/game2/3.png" width="240">
+
 </p>
 
-1. [M1, M3] · Worm extending over a ledge with unsupported rear segments subject to gravity.
-2. [M2, M4] · Worm eating an apple, growing +1 segment longer, and bridging across a gap.
-3. [M6, M7] · Worm navigating past spike hazards toward the final exit portal.
+1. **[M1, M3]** · The worm is extending over a ledge while the unsupported parts of its body are affected by gravity.
 
-| # | Mechanic | Dynamic | Aesthetic | Bartle type |
-|---|---|---|---|---|
-| M1 | Grid-based discrete step movement (1 cell per input key) | Players pause and plan sequences of moves ahead before committing to an input | Challenge: pure forward-thinking logic puzzle without real-time reflex pressure | Explorer: studying grid layouts to deduce how moves unfold |
-| M2 | Snake body segment-follow algorithm (Segment $i$ moves to cell of Segment $i-1$) | Players fold and bend the body into spatial shapes to fit inside tight grid spaces | Discovery: figuring out how complex body shapes occupy spatial geometry | Explorer: experimenting with body folding patterns in confined spaces |
-| M3 | Unsupported segment gravity check (Falls if zero underlying tile support) | Players shift weight centers across chasms, risking falls to hook onto far ledges | Discovery: learning physics edge-cases and gravity behavior on overhangs | Explorer: testing physics rules to see where the worm safely balances |
-| M4 | Apple consumption growth trigger (+1 body segment upon entering apple cell) | Players plan the exact order of eating apples, as a longer body enables bridging but hinders maneuvering | Challenge: eating order forms the primary structural constraint of the puzzle | Achiever: completing optional apple collection objectives per level |
-| M5 | Solid body collision and self-platforming (Segments act as physical barriers/bridges) | Players position their own tail over gaps to use as a rigid platform for reaching high ledges | Expression: finding creative alternative paths to reach the level target | Explorer: finding novel structural uses for the worm's extended body |
-| M6 | Instant death on hazard collision (Spikes trigger immediate level reset) | Players attempt risky paths, fail fast without penalty, and adjust their strategy | Challenge: overcoming strict failure conditions through trial and error | Achiever: clearing hazard-dense levels without dying |
-| M7 | Exit portal level-complete trigger | Players navigate the head segment into the portal to complete the level and unlock the next | Challenge: clear victory condition marking puzzle resolution | Achiever: completing levels sequentially to progress through the game |
+2. **[M2, M4]** · The worm eats an apple and grows one segment longer. It can then use its longer body to cross a gap.
 
-**Aesthetic profile:** Challenge (solving spatial logic puzzles and navigating hazards), Discovery (uncovering how gravity, growth, and geometry rules interact), and Expression (devising unique body-bridging solutions).
+3. **[M6, M7]** · The worm moves past spike hazards and heads toward the exit portal.
+
+| #  | Mechanic                                                                              | Dynamic                                                                                                                                | Aesthetic                                                                                                    | Bartle type                                                                                |
+| -- | ------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ |
+| M1 | Grid-based discrete step movement (1 cell per input key)                              | Players move one cell at a time, so they have to think about their moves before making them.                                           | Challenge: The game mainly tests planning and logical thinking instead of fast reactions.                    | Explorer: Players study the grid and try to understand how each move will affect the worm. |
+| M2 | Snake body segment-follow algorithm (Segment $i$ moves to cell of Segment $i-1$)      | Players bend and fold the worm's body to fit into small spaces and reach different areas.                                              | Discovery: Players learn how the worm's body behaves when it is folded into different shapes.                | Explorer: Players try different body shapes to see what they can do in tight spaces.       |
+| M3 | Unsupported segment gravity check (Falls if zero underlying tile support)             | Players move the worm across gaps and have to make sure its body has enough support.                                                   | Discovery: Players learn how the gravity system works and what happens when part of the worm is unsupported. | Explorer: Players test different positions to understand where the worm can safely stay.   |
+| M4 | Apple consumption growth trigger (+1 body segment upon entering apple cell)           | Players have to think about when and in what order to eat apples. A longer body can help cross gaps but can also make movement harder. | Challenge: The order in which apples are eaten affects how the rest of the puzzle can be solved.             | Achiever: Players try to collect the apples while completing the level.                    |
+| M5 | Solid body collision and self-platforming (Segments act as physical barriers/bridges) | Players can place parts of their own body over gaps and use them as a platform to reach higher areas.                                  | Expression: Players can find different ways to use the worm's body to reach the target.                      | Explorer: Players look for new and creative ways to use the worm's body.                   |
+| M6 | Instant death on hazard collision (Spikes trigger immediate level reset)              | Players can try risky moves and quickly restart the level if they fail. They then change their strategy.                               | Challenge: Players have to avoid the spikes and solve difficult sections through trial and error.            | Achiever: Players try to complete levels without hitting the hazards.                      |
+| M7 | Exit portal level-complete trigger                                                    | Players move the worm's head into the exit portal to finish the level and move to the next one.                                        | Challenge: Reaching the portal gives the player a clear goal to complete.                                    | Achiever: Players complete levels one by one to progress through the game.                 |
+
+**Aesthetic profile:** Challenge, Discovery, and Expression. The game focuses on solving spatial puzzles and avoiding hazards. Players also learn how gravity, growth, and the level layout work together. They can also find their own ways to use the worm's body to solve a level.
 
 **Player types**
-- **Primary: Explorer** (**Interacting × World**), because M1, M2, M3, and M5 require interacting with the world to understand, test, and manipulate physical constraints, body geometry, and gravity mechanics.
-- **Secondary: Achiever** (**Acting × World**), because M4, M6, and M7 provide structured goal completion (eating all apples, surviving hazards, and reaching the exit portal) to progress through the level ladder.
+
+* **Primary: Explorer (Interacting × World)**, because M1, M2, M3, and M5 require players to interact with the game world and understand how the grid, body movement, gravity, and different physical situations work.
+
+* **Secondary: Achiever (Acting × World)**, because M4, M6, and M7 give players clear goals such as collecting apples, avoiding hazards, reaching the exit, and moving to the next level.
 
 ---
 
-## Level blockouts
+## Level Blockouts
 
-| Level | Screenshot | Its idea | Wayfinding tool |
-|---|---|---|---|
-| Level01 | <img src="Docs/levels/Level01.png" width="320"> | Basic linear stealth teaching basic movement, cheese pickup, single Tom obstacle, and simple cover. | Straight cheese trail leading directly from spawn to the exit door. |
-| Level02 | <img src="Docs/levels/Level02.png" width="320"> | Loop layout requiring full traversal to collect all food, triggering noise carrots, and backtracking to start. | Water puddle placement and vase hideout points framing the returning pathway. |
-| Level03 | <img src="Docs/levels/Level03.png" width="320"> | Serpentine chamber layout with dual Tom hazards, speed-boost red peppers, and a guarded exit. | Red pepper power-ups placed at key choke points signaling corridor directions. |
-| Level04 | <img src="Docs/levels/Level04.png" width="320"> | 4-quadrant grid introducing triple cat hazards, fatal black hole pitfalls, and vertical stair hideouts. | Wall stair structures and central corridor partitions guiding quadrant navigation. |
-| Level05 | <img src="Docs/levels/Level05.png" width="320"> | Segregated 4-room structure connected via interconnecting doorways for tactical room transitions and hiding. | Doorway openings between interior dividing walls marking transition paths between sections. |
+| Level   | Screenshot                                      | Its idea                                                                                                                             | Wayfinding tool                                                                                       |
+| ------- | ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------- |
+| Level01 | <img src="Docs/levels/Level01.png" width="320"> | A simple straight stealth level that teaches basic movement, cheese collection, one Tom obstacle, and hiding behind cover.           | A straight cheese trail leads the player from the starting point to the exit door.                    |
+| Level02 | <img src="Docs/levels/Level02.png" width="320"> | A loop-shaped level where the player has to collect all the food, deal with the noise carrots, and then return to the starting area. | Water puddles and vase hiding spots help show the player where the returning path goes.               |
+| Level03 | <img src="Docs/levels/Level03.png" width="320"> | A winding level with two Tom hazards, red peppers that increase speed, and a guarded exit.                                           | Red pepper power-ups are placed at important points to help show the direction of the corridors.      |
+| Level04 | <img src="Docs/levels/Level04.png" width="320"> | A 4-quadrant level that introduces three cat hazards, deadly black hole traps, and stair areas that can be used for hiding.          | The wall stairs and the corridors in the middle help guide the player between the different sections. |
+| Level05 | <img src="Docs/levels/Level05.png" width="320"> | A level divided into 4 separate rooms. The rooms are connected through doorways, giving the player different ways to move and hide.  | The doorways between the walls show the player where they can move from one room to another.          |
